@@ -26,6 +26,6 @@
 
 <details>
 
-- `app.py`
+<summary>app.py</summary>
 
 </details>
