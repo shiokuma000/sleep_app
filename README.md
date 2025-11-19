@@ -81,21 +81,6 @@ UIは淡く静かな雰囲気を意識し、操作に迷わない最小限の動
 7. 画面に診断結果と小さなくまが表示されます。  
 8. reset で最初に戻ります。  
 
----
-
-## 📁 プロジェクト構成
-
- [🪄 プロジェクト構成](PROJECT.md)
-
-詳しくはこちらよりご覧ください。
-
-sleep_app 
-- 📕 README.md / .gitignore 
-- 🕯️ static 
-- 🗃️ templates 
-- 💎 app.py 
-- 📝 memo
-
 
 ---
 
@@ -120,9 +105,11 @@ sleep_app
 
 ---
 
-## 🗂 画面遷移図
+## 📁 プロジェクト構成・画面遷移図
 
-![sleep_app_flow](docs/sleep.png)
+ - [🪄 プロジェクト構成](PROJECT.md)
+
+- [🔍画面遷移図](docs/sleep.png)
 
 
 ---
