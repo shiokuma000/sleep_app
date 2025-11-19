@@ -29,3 +29,11 @@
 <summary>app.py</summary>
 
 </details>
+
+<details>
+
+<summary>memo</summary>
+
+- `requirements.txt`
+
+</details>
