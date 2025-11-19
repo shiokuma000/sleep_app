@@ -49,11 +49,11 @@ UIは淡く静かな雰囲気を意識し、操作に迷わない最小限の動
 
 - `python -m venv venv`
 
-🖥 macOS / Linux
+🖥 **macOS / Linux**
 
 - `source venv/bin/activate`
 
-🖥 Windows
+🖥 **Windows**
 
 - `venv\Scripts\activate`
 
