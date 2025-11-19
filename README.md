@@ -43,7 +43,7 @@ UIは淡く静かな雰囲気を意識し、操作に迷わない最小限の動
 - このアプリは以下の手順で遊んでいただけます
 
 1. このリポジトリをクローンしてください
-`git clone https://github.com/shiokuma000/sleep_app.git 任意のフォルダ名`
+- `git clone https://github.com/shiokuma000/sleep_app.git 任意のフォルダ名`
 
 2. 仮想環境の作成をお願いいたします。（こちらは任意ですが推奨です。）
 
@@ -54,15 +54,15 @@ UIは淡く静かな雰囲気を意識し、操作に迷わない最小限の動
 `venv\Scripts\activate`
 
 3. 必要パッケージをインストールしてください。
-`pip install -r requirements.txt`
+- `pip install -r requirements.txt`
 
 4. アプリを起動してください。
-`python app.py`
+- `python app.py`
 
 5. 以下をコピーし、ブラウザでアクセスしてください。
-`http://127.0.0.1:5000`
+- `http://127.0.0.1:5000`
 
-6. 診断で遊んでいただけたら嬉しいです！
+6. 診断で遊んでみてください！
 
 
 ---
