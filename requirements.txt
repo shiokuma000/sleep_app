@@ -1,0 +1,5 @@
+このプロジェクトに必要なPythonライブラリはこちら
+
+flask>=3.0：Flask の最新版（少なくとも 3.0 以上）
+
+pip install -r requirements.txt
