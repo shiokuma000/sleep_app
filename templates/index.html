@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>睡眠コンディション診断</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h1>睡眠コンディション診断</h1>
+
+<label>睡眠時間（h）:</label>
+<select id="sleepSelect">
+    {% for i in range(3, 12) %}
+        <option value="{{ i }}">{{ i }}</option>
+    {% endfor %}
+</select>
+
+<div id="questions">
+    {% for q in questions %}
+    <div class="question">
+        <div class="qtext">{{ loop.index }}. {{ q }}</div>
+        <label>はい <input type="radio" name="q{{ loop.index0 }}" value="yes"></label>
+        <label>いいえ <input type="radio" name="q{{ loop.index0 }}" value="no"></label>
+    </div>
+    {% endfor %}
+</div>
+
+
+<div class="btns">
+    <button id="checkBtn">診断する</button>
+    <button id="resetBtn">リセット</button>
+</div>
+
+<div id="result" class="bear"></div>
+
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

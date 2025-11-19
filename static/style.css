@@ -1,0 +1,202 @@
+html{
+    font-size: 125%;
+}
+
+body {
+    background: #0f1b2a;
+    color: #f0f0f0;
+    font-family: "Noto Serif JP","Hiragino Maru Gothic ProN", "Yu Gothic", sans-serif;
+    padding: 30px;
+    max-width: 600px;
+    font-size: 16px; /* 文字サイズ調整 */
+    line-height: 1.6; /* 読みやすく */
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 1.1rem;
+}
+
+/* ラジオボタン自体のサイズ調整 */
+input[type="radio"] {
+    width: 20px;   /* ボタン幅 */
+    height: 20px;  /* ボタン高さ */
+    margin-right: 6px;  /* 文字との隙間 */
+    accent-color: #2b4e83; /* ボタンの色（モダンブラウザ用） */
+}
+
+#sleepSelect {
+    font-size: 1.05rem;       /* 文字サイズを少し大きめに */
+    padding: 8px 12px;       /* 内側の余白を増やす */
+    border-radius: 6px;      /* 角丸 */
+    border: 1px solid #ccc;  /* 枠線 */
+    background-color: #fff;  /* 背景色 */
+    color: #000;             /* 文字色 */
+    width: 80px;             /* 横幅調整 */
+}
+
+
+.question {
+    margin: 12px 0;
+    font-size: 1.1rem; 
+    line-height: 1.6; /* 読みやすく */
+}
+
+.qtext {
+    font-size: 1.2rem;
+    margin-bottom: 4px;
+}
+
+.btns {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 16px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    margin-right: 10px;
+}
+
+#result {
+    margin-top: 25px;
+    padding: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    white-space: pre-line;
+}
+
+/* 結果コンテナ */
+.bear {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;  /* 上揃えに変更 */
+  margin-top: 40px;
+}
+
+/* 横並びコンテナ */
+.bear-container {
+  display: flex;
+  align-items: flex-start;  /* 上揃え */
+  gap: 12px;                /* クマと吹き出しの隙間 */
+  text-align: left;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+/* クマ画像 */
+.bear-img {
+  width: 80px;        /* 固定サイズ */
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #f5f5dc;
+  object-fit: cover;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+/* 吹き出し */
+.bear-bubble {
+  font-size: 1.1rem;
+  line-height: 1.4; /* 読みやすさ向上 */
+  position: relative;
+  background-color: #0f1b2a;
+  border: 1px solid #e8e0c8;
+  border-radius: 16px;
+  padding: 12px 18px;
+  display: inline-block;
+  max-width: 400px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* 吹き出しのしっぽ */
+.bear-bubble::after {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 20px;
+  border-width: 8px 10px 8px 0;
+  border-style: solid;
+  border-color: transparent #FAF0E6 transparent transparent;
+}
+
+/* フェードイン */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* レスポンシブ */
+
+/* 小さい画面（スマホ向け） */
+@media (max-width: 480px) {
+    html {
+        font-size: 110%; /* 全体の文字サイズを少し下げる */
+    }
+
+    body {
+        padding: 15px;
+        max-width: 100%; /* 横幅いっぱい */
+    }
+
+    #sleepSelect {
+        font-size: 1.3rem;
+        width: 100%; /* 選択肢幅いっぱい */
+        padding: 10px;
+    }
+
+    .question {
+        font-size: 1.2rem;
+    }
+
+    .qtext {
+        font-size: 1.3rem;
+    }
+
+    .btns {
+        font-size: 1.1rem;
+        padding: 12px 18px;
+        margin-bottom: 10px;
+        width: 100%; /* ボタン幅いっぱい */
+    }
+
+    .bear-bubble {
+        font-size: 1.2rem;
+        max-width: 90%; /* 吹き出し幅を画面に合わせる */
+    }
+
+    .bear-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .bear-container {
+        flex-direction: column; /* クマと吹き出しを縦並び */
+        align-items: center;
+        gap: 8px;
+    }
+}
+
+/* 中くらいの画面（タブレット向け） */
+@media (max-width: 768px) {
+    #sleepSelect {
+        font-size: 1.2rem;
+        width: 120px;
+    }
+
+   .btns{
+        font-size: 1rem;
+        padding: 10px 14px;
+    }
+
+    .bear-bubble {
+        max-width: 300px;
+    }
+}
