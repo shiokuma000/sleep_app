@@ -54,7 +54,7 @@ UIは淡く静かな雰囲気を意識し、操作に迷わない最小限の動
 `venv\Scripts\activate`
 
 3. 必要パッケージをインストールしてください。
-pip install -r `requirements.txt`
+`pip install -r requirements.txt`
 
 4. アプリを起動してください。
 `python app.py`
