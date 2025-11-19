@@ -9,7 +9,7 @@
 </details>
 
 <details>
-<summary>static</summary>
+<summary>🕯️static</summary>
 
 - `bear.jpg`
 - `script.js`
@@ -18,7 +18,7 @@
 </details>
 
 <details>
-<summary>templates</summary>
+<summary>🗃️templates</summary>
 
 - `index.html`
 
@@ -26,13 +26,13 @@
 
 <details>
 
-<summary>app.py</summary>
+<summary>💎app.py</summary>
 
 </details>
 
 <details>
 
-<summary>memo</summary>
+<summary>📝memo</summary>
 
 - `requirements.txt`
 
