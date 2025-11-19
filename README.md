@@ -55,12 +55,15 @@ UIは淡く静かな雰囲気を意識し、操作に迷わない最小限の動
 
 ## 📁 プロジェクト構成
 
+![sleep_app_project](PROJECT.md)
+詳しくはこちらよりご覧ください。
+
 sleep_app 
-📕 README.md / .gitignore 
-🕯️ static 
-🗃️ templates 
-💎 app.py 
-📝 memo
+- 📕 README.md / .gitignore 
+- 🕯️ static 
+- 🗃️ templates 
+- 💎 app.py 
+- 📝 memo
 
 
 ---
