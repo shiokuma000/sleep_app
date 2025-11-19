@@ -48,7 +48,7 @@ UIは淡く静かな雰囲気を意識し、操作に迷わない最小限の動
 2. 仮想環境の作成をお願いいたします。（こちらは任意ですが推奨です。）
 
 - `python -m venv venv`
-- 
+
 🖥 macOS / Linux
 
 - `source venv/bin/activate`
