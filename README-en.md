@@ -135,11 +135,11 @@ The UI emphasizes a soft, calm atmosphere with minimal navigation to avoid confu
 
 ---
 
-## 🚀 動作例
+## 🚀 Demo
 
  <img src="assets/sleep.GIF" width="300" /> 
 
-※画像をクリックすると拡大表示されます。
+※ Click images to enlarge.
 
 ---
 
