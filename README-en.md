@@ -139,6 +139,8 @@ The UI emphasizes a soft, calm atmosphere with minimal navigation to avoid confu
 
  <img src="assets/sleep.GIF" width="300" /> 
 
+※ Please set your sleep time first (the part marked 7).
+
 ※ Click images to enlarge.
 
 ---
