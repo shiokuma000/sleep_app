@@ -32,8 +32,7 @@
 
 <details>
 
-<summary>📝memo</summary>
+<summary>📝requirements.txt</summary>
 
-- `requirements.txt`
 
 </details>

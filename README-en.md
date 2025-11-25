@@ -45,29 +45,50 @@ The UI emphasizes a soft, calm atmosphere with minimal navigation to avoid confu
 
 - You can run the app by following these steps:
 
-1. Clone this repository:  
+1. Navigate to your desired folder and clone this repository using the command below.
+
+  Example: If you want to place it on the Desktop:
+  
+  - `cd %USERPROFILE%\Desktop`
+
+  Clone command (copy and paste into your git terminal):
+  
 - `git clone https://github.com/shiokuma000/sleep_app.git <your-folder-name>`
 
-2. (Optional but recommended) Create a virtual environment:  
+2. (Optional but recommended) Create a virtual environment:
+
 - `python -m venv venv`
 
-🖥 **macOS / Linux**  
+🖥 **macOS / Linux**
+
 - `source venv/bin/activate`
 
-🖥 **Windows**  
-- `venv\Scripts\activate`
+🖥 **Windows (Command Prompt)**
 
-3. Install required packages:  
+- `venv\Scripts\activate.bat`
+
+🖥 **Windows (PowerShell)**
+
+- `.\venv\Scripts\Activate.ps1`
+
+3. Install required packages:
 - `pip install -r requirements.txt`
 
-4. Start the app:  
+4. Start the application using the command line or similar methods.
+
+- **Before running the command, make sure you are in the folder containing the app:**
+  
+  `cd <your-folder-name>`  
+
 - `python app.py`
 
-5. Open your browser and go to:  
+- If the following appears in your terminal, you can access the app:
+- `* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)`
+
+5. Open your browser and visit:
 - `http://127.0.0.1:5000`
 
 6. Enjoy the sleep diagnosis!
-
 ---
 
 ## 🚀 How It Works
@@ -121,4 +142,4 @@ The UI emphasizes a soft, calm atmosphere with minimal navigation to avoid confu
 
 ---
 
-🌟 Last Updated: 2025-11-19
+🌟 Last Updated: 2025-11-25
