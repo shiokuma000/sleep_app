@@ -135,6 +135,14 @@ The UI emphasizes a soft, calm atmosphere with minimal navigation to avoid confu
 
 ---
 
+## 🚀 動作例
+
+ <img src="assets/sleep.GIF" width="300" /> 
+
+※画像をクリックすると拡大表示されます。
+
+---
+
 ## 💡 License & Copyright
 
 - This project was created for learning purposes and is not intended for commercial use.  
