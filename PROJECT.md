@@ -9,6 +9,13 @@
 </details>
 
 <details>
+<summary>👜assets</summary>
+
+- `sleep.GIF`
+
+</details>
+
+<details>
 <summary>🕯️static</summary>
 
 - `bear.jpg`
