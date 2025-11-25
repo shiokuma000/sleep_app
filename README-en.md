@@ -60,7 +60,7 @@ The UI emphasizes a soft, calm atmosphere with minimal navigation to avoid confu
 3. Install required packages:  
 - `pip install -r requirements.txt`
 
-4. Start the app:  
+4. Please start the application using the command line or similar methods：  
 - `python app.py`
 
 5. Open your browser and go to:  
