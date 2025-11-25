@@ -43,58 +43,47 @@ UIは淡く静かな雰囲気を意識し、操作に迷わない最小限の動
 - このアプリは以下の手順で遊んでいただけます
 
 1. このリポジトリをクローンしてください
-`git clone <リポジトリURL> 任意のフォルダ名`
+- `git clone https://github.com/shiokuma000/sleep_app.git 任意のフォルダ名`
 
 2. 仮想環境の作成をお願いいたします。（こちらは任意ですが推奨です。）
 
 - `python -m venv venv`
-- macOS / Linux
-`source venv/bin/activate`
-- Windows
-`venv\Scripts\activate`
+
+🖥 **macOS / Linux**
+
+- `source venv/bin/activate`
+
+🖥 **Windows**
+
+- `venv\Scripts\activate`
 
 3. 必要パッケージをインストールしてください。
-`pip install -r requirements.txt`
+- `pip install -r requirements.txt`
 
 4. アプリを起動してください。
-`python app.py`
+- `python app.py`
 
 5. 以下をコピーし、ブラウザでアクセスしてください。
-`http://127.0.0.1:5000`
+- `http://127.0.0.1:5000`
 
-6. 診断で遊んでいただけたら嬉しいです！
+6. 診断で遊んでみてください！
 
 
 ---
 
 ## 🚀 使い方の流れ
 
-1. 睡眠時間（3〜11時間）を選ぶ  
-2. 質問が 1 つずつ表示  
-3. 「はい / いいえ」を選択しながら進む  
-4. 「診断する」ボタンでサーバーへ JSON送信  
-5. Flask 側で  
+1. 睡眠時間（3〜11時間）を選びます。
+2. 質問が 1 つずつ表示されます。  
+3. 「はい / いいえ」を選択しながら進んでください。
+4. 「診断する」ボタンでサーバーへ　→　JSON送信  
+5. Flask 側で以下を行います。
    - 回答の集計  
    - 睡眠傾向の分析  
    - アドバイス作成  
-6. 結果を JSON 形式で返却  
-7. 画面に診断結果と小さなくまを表示  
-8. reset で最初に戻る  
-
----
-
-## 📁 プロジェクト構成
-
- [🪄 プロジェクト構成](PROJECT.md)
-
-詳しくはこちらよりご覧ください。
-
-sleep_app 
-- 📕 README.md / .gitignore 
-- 🕯️ static 
-- 🗃️ templates 
-- 💎 app.py 
-- 📝 memo
+6. 結果が JSON 形式で返却されます。
+7. 画面に診断結果と小さなくまが表示されます。  
+8. reset で最初に戻ります。  
 
 
 ---
@@ -120,9 +109,11 @@ sleep_app
 
 ---
 
-## 🗂 画面遷移図
+## 📁 プロジェクト構成・画面遷移図
 
-![sleep_app_flow](docs/sleep.png)
+ - [🪄 プロジェクト構成](PROJECT.md)
+
+- [🔍画面遷移図](docs/sleep.png)
 
 
 ---
