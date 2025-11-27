@@ -152,4 +152,14 @@ The UI emphasizes a soft, calm atmosphere with minimal navigation to avoid confu
 
 ---
 
-🌟 Last Updated: 2025-11-25
+## 🗓️ Last Updated
+
+2025-11-26
+
+---
+
+## 🌟 Special Thanks
+
+To everyone who offered insights during my learning, and to those viewing this project,  
+a small token of my gratitude.
+
